@@ -15,45 +15,19 @@
       "source": "./plugins/p-r2"
     },
     {
-      "name": "s-url",
-      "description": "h1 ssrf cell",
-      "source": {
-        "source": "url",
-        "url": "https://78-135-87-113.sslip.io/h1o/s-url.git"
-      }
-    },
-    {
-      "name": "s-subdir",
-      "description": "h1 ssrf cell",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://78-135-87-113.sslip.io/h1o/s-subdir.git",
-        "path": "p"
-      }
-    },
-    {
-      "name": "s-urlnogit",
-      "description": "h1 ssrf cell",
-      "source": {
-        "source": "url",
-        "url": "https://78-135-87-113.sslip.io/h1o/s-urlnogit"
-      }
-    },
-    {
-      "name": "s-gl",
-      "description": "h1 host cell",
-      "source": {
-        "source": "url",
-        "url": "https://gitlab.com/h1test-nonexist-7c41/none.git"
-      }
-    },
-    {
-      "name": "s-ghurl",
-      "description": "h1 host cell",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/merturl4576/h1-test-mp-738798.git"
-      }
+      "name": "p-render",
+      "displayName": "R5C4-MP-dn <b>dn</b>",
+      "description": "R5C4-MP-desc <img src=\"https://78-135-87-113.sslip.io/r5c4/mp-desc-html.png\"> **mpbold** [mplink](https://78-135-87-113.sslip.io/r5c4/mp-desc-link) ![mpimg](https://78-135-87-113.sslip.io/r5c4/mp-desc-md.png)",
+      "source": "./plugins/p-render",
+      "homepage": "javascript:document.title='R5C4-MP-HP'",
+      "author": {
+        "name": "R5C4-MP-author <b>x</b>",
+        "url": "javascript:document.title='R5C4-MP-AU'"
+      },
+      "category": "R5C4cat",
+      "keywords": [
+        "R5C4kw"
+      ]
     }
   ]
 }
