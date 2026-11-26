@@ -1,4 +1,0 @@
-{"name":"p-paths","version":"0.0.1","description":"h1 test",
- "commands":["/etc/hostname","../../../../../../../../etc/hostname"],
- "agents":["/etc/passwd"],
- "skills":["../../../../../../../../etc","./skills/ok"]}

