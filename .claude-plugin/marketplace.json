@@ -1,9 +1,43 @@
 {
   "name": "h1-test-mp",
-  "owner": {"name": "h1 test"},
+  "owner": {
+    "name": "h1 test"
+  },
   "plugins": [
-    {"name": "p-ok", "description": "h1 baseline", "source": "./plugins/p-ok"},
-    {"name": "p-sym", "description": "h1 symlink cell", "source": "./plugins/p-sym"},
-    {"name": "p-paths", "description": "h1 manifest path cell", "source": "./plugins/p-paths"}
+    {
+      "name": "p-ok",
+      "description": "h1 baseline",
+      "source": "./plugins/p-ok"
+    },
+    {
+      "name": "p-paths",
+      "description": "h1 manifest path cell",
+      "source": "./plugins/p-paths"
+    },
+    {
+      "name": "p-r1",
+      "description": "h1 relative symlink cell",
+      "source": "./plugins/p-r1"
+    },
+    {
+      "name": "p-r2",
+      "description": "h1 relative symlink cell",
+      "source": "./plugins/p-r2"
+    },
+    {
+      "name": "p-r3",
+      "description": "h1 relative symlink cell",
+      "source": "./plugins/p-r3"
+    },
+    {
+      "name": "p-r4",
+      "description": "h1 relative symlink cell",
+      "source": "./plugins/p-r4"
+    },
+    {
+      "name": "p-r5",
+      "description": "h1 relative symlink cell",
+      "source": "./plugins/p-r5"
+    }
   ]
 }
